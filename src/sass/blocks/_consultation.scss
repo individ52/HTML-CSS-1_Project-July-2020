@@ -1,0 +1,60 @@
+.consultation {
+    margin: 28px 0 58px 0;
+    height: 286px;
+    &_part1 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_img {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            border: 1px solid $main-color;
+            z-index: 2;
+            img {
+                display: block;
+                transform: translateY(-5%);
+            }
+        }
+        &_line {
+            width: 510px;
+            height: 1px;
+            background-color: #898989;
+        }
+    }
+    &_form {
+        margin-top: 20px;
+        ;
+        .feed-form {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            height: 45px;
+            width: 830px;
+            input {
+                height: 45px;
+                width: 240px;
+                border-radius: 25px;
+                border: 1px solid #898989;
+                padding-left: 28px;
+                outline: none;
+            }
+        }
+    }
+    &_part2 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_line {
+            width: 464px;
+            height: 1px;
+            background-color: #898989;
+        }
+    }
+}

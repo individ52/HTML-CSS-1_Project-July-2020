@@ -1,0 +1,35 @@
+.benefits {
+    height: 520px;
+    padding: 57px 0 51px 0;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 1096px;
+        height: 428px;
+        margin: 0 auto;
+        &_part {
+            &_item {
+                margin-top: 36px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 529px;
+                img {
+                    display: block;
+                    margin-right: 20px;
+                }
+                &_content {
+                    width: 450px;
+                    &_text {
+                        margin-top: 13px;
+                        color: #3a3a3a;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

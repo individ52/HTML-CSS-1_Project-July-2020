@@ -1,0 +1,27 @@
+@import 'libs/_fonts.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    overflow: hidden;
+}
+
+@import 'blocks/promo';
+@import 'blocks/benefits';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/prices';
+@import 'blocks/consultation';
+@import 'blocks/manadger';
+@import 'blocks/scheme';
+@import 'blocks/recall';
+@import 'blocks/quasion';
+@import 'blocks/footer';
+@import 'blocks/modal';
